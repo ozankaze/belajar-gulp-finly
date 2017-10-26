@@ -1,0 +1,25 @@
+{
+  "name": "fauzan",
+  "description": "Front-End",
+  "main": "index.js",
+  "authors": [
+    "ozankaze <ozankaze101@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "homepage": "https://github.com/ozankaze/finly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-beta"
+  }
+}

@@ -1,0 +1,71 @@
+#services {
+    padding: 180px 0;
+    text-align: center;
+
+    .list_services {
+        margin-top: 80px;
+
+        .content {
+            border: 1px solid $c_ef;
+            margin: 0 20px;
+            border-radius: 5px;
+            
+            transition: all 0.35s ease-in-out;
+
+            i {
+                color: $primary;
+                padding: 60px 0;
+                font-size: 56px;
+            }
+
+            h4 {
+                color: $c_b;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+
+            p {
+                padding-left: 0 25px;
+                margin-bottom: 30px;
+            }
+
+            .fa-long-arrow-right {
+//                color: $primary;
+                font-size: 26px;
+//                margin-bottom: 60px;
+//                opacity: 0.35;
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+                margin-top: -10px;
+
+                border-color: rgba (0, 0, 0, 0.02);
+                box-shadow: 0 5px 28px rgba(0, 0, 0, 0.2);
+
+                .fa-long-arrow-right {
+                    font-size: $primary;
+                    opacity: 1px;
+                }
+            }
+        }
+    } ///list service
+    .btn_see_all {
+        display: inline-block;
+        margin-top: 100px;
+        color: $c_b;
+        border: 1px solid $c_ef;
+        border-radius: 5px;
+        padding: 12px 35px;
+        text-decoration: none;
+        
+    &:hover,
+    &:focus,
+    &:active{
+        background-color: $primary;
+        color: $w;
+    }
+    }
+}
